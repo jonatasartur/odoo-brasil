@@ -8,8 +8,9 @@
         <field name="inherit_id" ref="base.view_res_partner_filter" />
         <field name="arch" type="xml">
             <field name="name" position="after">
+                <field name="city"/>
                 <field name="legal_name"/>
-                <field name="cnpj_cpf" />
+                <field name="cnpj_cpf"/>
             </field>
         </field>
     </record>
